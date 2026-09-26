@@ -1,0 +1,26 @@
+df1 <- data.frame(
+  Name = c("Anu", "Banu"),
+  Age = c(20, 21)
+)
+
+df2 <- data.frame(
+  Marks = c(85, 90)
+)
+
+# Join columns using cbind()
+column_join <- cbind(df1, df2)
+
+print("After joining columns:")
+print(column_join)
+
+# Create another data frame with same columns
+df3 <- data.frame(
+  Name = c("Cathy", "Divya"),
+  Age = c(22, 20)
+)
+
+# Join rows using rbind()
+row_join <- rbind(df1, df3)
+
+print("After joining rows:")
+print(row_join)
