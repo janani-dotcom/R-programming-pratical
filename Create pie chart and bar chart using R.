@@ -1,0 +1,15 @@
+# Data
+subjects <- c("Python", "Java", "R", "DBMS")
+marks <- c(80, 70, 90, 85)
+
+# Pie Chart
+pie(marks,
+    labels = subjects,
+    main = "Marks by Subject")
+
+# Bar Chart
+barplot(marks,
+        names.arg = subjects,
+        main = "Marks by Subject",
+        xlab = "Subjects",
+        ylab = "Marks")
