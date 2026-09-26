@@ -1,0 +1,5 @@
+student_data<-data.frame(name=c("janu","divi","deva"),marks=c(80,90,100))
+write.csv(student_data,"~/rpcsv.R",row.names=FALSE)
+cat("csv file created successfully \n")
+data<-read.csv("~/rpcsv.R")
+barplot(data$marks,names.arg=data$name,col="pink",main="student_marks",xlab="name",ylab="marks")
