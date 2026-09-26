@@ -1,0 +1,9 @@
+n <- 10
+
+cat("Even numbers from 1 to", n, "are:\n")
+
+for (i in 1:n) {
+  if (i %% 2 == 0) {
+    print(i)
+  }
+}
