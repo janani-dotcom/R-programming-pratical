@@ -1,0 +1,36 @@
+# Create a dataset
+marks <- c(75, 80, 85, 90, 70, 95, 88, 82, 78, 92)
+
+# Display the dataset
+print("Dataset:")
+print(marks)
+
+# Statistical analysis
+
+# Mean
+print("Mean:")
+print(mean(marks))
+
+# Median
+print("Median:")
+print(median(marks))
+
+# Minimum
+print("Minimum:")
+print(min(marks))
+
+# Maximum
+print("Maximum:")
+print(max(marks))
+
+# Variance
+print("Variance:")
+print(var(marks))
+
+# Standard Deviation
+print("Standard Deviation:")
+print(sd(marks))
+
+# Summary
+print("Statistical Summary:")
+print(summary(marks))
