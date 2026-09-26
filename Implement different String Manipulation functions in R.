@@ -1,0 +1,28 @@
+# Create a string
+str <- "Hello R Programming"
+
+# Print the string
+print(str)
+
+# Find number of characters
+print(nchar(str))
+
+# Convert to uppercase
+print(toupper(str))
+
+# Convert to lowercase
+print(tolower(str))
+
+# Extract part of the string
+print(substr(str, 1, 5))
+
+# Replace part of the string
+print(sub("R", "Python", str))
+
+# Split the string
+print(strsplit(str, " "))
+
+# Paste two strings
+str1 <- "Hello"
+str2 <- "World"
+print(paste(str1, str2))
