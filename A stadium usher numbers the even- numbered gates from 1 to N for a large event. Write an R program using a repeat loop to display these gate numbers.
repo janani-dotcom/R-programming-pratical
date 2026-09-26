@@ -1,0 +1,14 @@
+# Program to display even numbers from 1 to N
+
+n <- as.integer(readline("Enter the value of N: "))
+
+i <- 2
+
+repeat {
+  if (i > n) {
+    break
+  }
+  
+  cat(i, " ")
+  i <- i + 2
+}
