@@ -1,0 +1,25 @@
+# 1. Vector
+marks <- c(80, 75, 90, 85, 70)
+
+print("Vector:")
+print(marks)
+
+# 2. List
+student <- list(
+  Name = "Anu",
+  Age = 20,
+  Marks = 85
+)
+
+print("List:")
+print(student)
+
+# 3. Data Frame
+students <- data.frame(
+  Name = c("Anu", "Banu", "Cathy"),
+  Age = c(20, 21, 20),
+  Marks = c(85, 90, 80)
+)
+
+print("Data Frame:")
+print(students)
